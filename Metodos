@@ -1,0 +1,5 @@
+#Escribir un programa que pida al usuario una frase y el programa lo muestre
+#de forma invertida.
+
+textoainvertir = input("Introduce la frase a invertir: ")
+print(textoainvertir[::-1])
