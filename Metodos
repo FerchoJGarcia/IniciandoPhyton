@@ -1,5 +1,13 @@
-#Escribir un programa que pida al usuario una frase y el programa lo muestre
-#de forma invertida.
+#Algunos métodos aplicables a cadenas
+nombre = input("Escribe tu nombre: ")
 
-textoainvertir = input("Introduce la frase a invertir: ")
-print(textoainvertir[::-1])
+
+#1. Capitalize → Primera letra mayuscula
+print(nombre.capitalize())
+
+#2. Center(n) → Cadena centrada con longitud n
+print(nombre.center(1))
+
+#3. Find(sub,[,desde[,hasta]])
+#print(nombre.find(1,[2[,3]]))
+
