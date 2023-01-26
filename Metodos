@@ -1,13 +1,71 @@
 #Algunos métodos aplicables a cadenas
 nombre = input("Escribe tu nombre: ")
+print("\n")
 
-
-#1. Capitalize → Primera letra mayuscula
+#1. Capitalize() → Primera letra mayuscula
+print("Función capitalize()")
 print(nombre.capitalize())
+print("\n")
 
 #2. Center(n) → Cadena centrada con longitud n
+print("Función center()")
 print(nombre.center(1))
+print("\n")
 
-#3. Find(sub,[,desde[,hasta]])
-#print(nombre.find(1,[2[,3]]))
+#3. isalnum() → Devuelve cierto si la cadena es no vacia y solo contiene letras
+#y digitos
+print("Función isalnum()")
+print(nombre.isalnum())
+print("\n")
 
+#4. isalpha() → Devuelve cierto si la cadena es no vacia y solo contiene letras
+print("Función isalpha()")
+print(nombre.isalpha())
+print("\n")
+
+#5. isdigit() → Devuelve cierto si la cadena es no vacia y solo contiene digitos
+print("Función isdigit()")
+print(nombre.isdigit())
+print("\n")
+
+#6. islower() → Devuelve cierto si todas las letras son minúsculas y hay al menos
+#una minuscula
+print("Función islower()")
+print(nombre.islower())
+print("\n")
+
+#7. isspace() → Devuelve cierto si la cadena es no vacía y todos sus
+#caracteres son no espacios
+print("Función isspace()")
+print(nombre.isspace())
+print("\n")
+
+#8. isupper() → Devuelve cierto si todas las letras de la cadena son mayúsculas y
+#hay al menos una mayúscula
+print("Función isupper()")
+print(nombre.isupper())
+print("\n")
+
+#9. lower() → Devuelve una copia de la cadena con las letras convertidas a
+#minúsculas
+print("Función lower()")
+print(nombre.lower())
+print("\n")
+
+#10. lstrip() → Devuelve una copia con los blancos iniciales omitidos
+print("Función lstrip()")
+print(nombre.lstrip())
+print("\n")
+
+#11. replace(v,n) → Devuelve una copia de la cadena donde se sustituye
+#v por n
+apellido="Garcia"
+print("Función replace()")
+print(nombre.replace(nombre,apellido))
+print(nombre.replace(nombre,'De Leon'))
+print("\n")
+
+#12. rstrip() → Devuelve una copia con los blancos finales omitidos
+print("Función rstrip()")
+print(nombre.rstrip())
+print("\n")
